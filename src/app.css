@@ -2,18 +2,10 @@ body {
   margin: 0px;
   padding: 0px;
 }
-
-.app {
-  text-align: center;
+.app-bar-open {
+  width: calc(100% - 300px) !important;
+  float: right;
 }
-
-.app-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.app-menu-drawer-header {
+  width: 300px;
 }
