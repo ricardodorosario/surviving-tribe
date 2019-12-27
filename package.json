@@ -1,0 +1,65 @@
+{
+  "name": "surviving-tribe",
+  "version": "0.1.0",
+  "description": "A board game developed using react",
+  "author": {
+    "name": "Ricardo do Rosario",
+    "email": "ricardorosario20@gmail.com"
+  },
+  "keywords": [
+    "surviving-tribe",
+    "board game",
+    "boardgame",
+    "bg"
+  ],
+  "private": true,
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack --mode production",
+    "test": "jest"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0",
+    "style-loader": "^1.0.0",
+    "css-loader": "^3.2.0",
+    "file-loader": "^5.0.2",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "@babel/core": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "@babel/preset-env": "^7.7.4",
+    "@babel/preset-react": "^7.7.4",
+    "eslint": "~6.7.2",
+    "@material-ui/core": "4.7.2",
+    "@material-ui/icons": "4.5.1",
+    "@fortawesome/free-solid-svg-icons": "~5.12.0",
+    "@fortawesome/fontawesome-svg-core": "~1.2.26",
+    "@fortawesome/react-fontawesome": "~0.1.8",
+    "jest": "~24.9.0",
+    "react-test-renderer": "~16.12.0",
+    "enzyme": "~3.10.0",
+    "enzyme-adapter-react-16": "1.15.1",
+    "chai": "4.2.0"
+  }
+}
