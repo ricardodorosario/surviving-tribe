@@ -7,6 +7,7 @@ import Typography from "@material-ui/core/Typography";
 import "./app.css";
 import LeftMenu from "./LeftMenu";
 import * as leftMenuActions from "./LeftMenuActions";
+import RollingBox from "./RollingBox";
 
 class App extends React.Component {
   constructor(props) {
@@ -43,8 +44,19 @@ class App extends React.Component {
           isMenuActive={this.state.isMenuActive}
           toggleDrawer={evt => leftMenuActions.toggleDrawer(this, evt)}
         />
+        <div className="body">
+          <RollingBox />
+        </div>
       </div>
     );
+  }
+
+  rollAll() {
+    this.reactDice.rollAll();
+  }
+
+  rollDoneCallback(num) {
+    console.log(`You rolled a ${num}`);
   }
 }
 

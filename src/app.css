@@ -2,10 +2,37 @@ body {
   margin: 0px;
   padding: 0px;
 }
+.body {
+  margin-top: 64px;
+  display: flex;
+  flex-direction: column;
+}
+.app-bar,
+.app-bar-open {
+  background-color: black !important;
+}
 .app-bar-open {
   width: calc(100% - 300px) !important;
   float: right;
 }
 .app-menu-drawer-header {
+  display: flex;
+  justify-content: right;
   width: 300px;
+}
+.rolling-box {
+  box-shadow: -1px 1px 5px black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+.roll-dices-button {
+  width: 100px;
+  margin-top: 10px;
+  padding: 5px 0px 5px 0px;
 }
